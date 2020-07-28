@@ -1,0 +1,22 @@
+1. What is your Understanding of Blockchain?
+A time-stamped series of immutable records of data that is managed by a cluster of computers not owned by any single entity.
+
+2. What is the core problem of the blockchain ?
+a.Its complexity means end users find it hard to appreciate the benefits
+b.Lack of regulation creates a risky environment
+c.Decentralisation
+
+3. what are the features of the blockchain ?
+a. unchangeable
+b. secure
+c. temper proof
+d.verifiable
+4. What all things does a block contain?
+Ans:
+a.. Block number
+b. Transaction record
+c. Previous block key
+d. Mining key
+5.How is the verifiability of Block chain has been attained?
+The transaction in a blockchain are referred to hash.
+Fingerprint +data= new fingerprint (<<fingerprint means hash)
