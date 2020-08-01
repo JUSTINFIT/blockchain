@@ -1,0 +1,27 @@
+ pragma solidity ^0.4.17;
+ contract studentreport{
+     string public Name;
+     uint public RollNo;
+     uint public batch;
+     uint public AI;
+     uint public PYTHON;
+     uint public ML;
+     uint public CRYPTOCURRENCY;
+     string public status;
+     function studentnew(string newname,uint newroll, uint newbatch, uint newAI, uint newPYTHON, uint newML, uint  newCRYPTOCURRENCY, string newstatus)public{
+      Name=newname;
+      RollNo=newroll;
+      batch=newbatch;
+      AI=newAI;
+      PYTHON=newPYTHON;
+      ML=newML;
+      CRYPTOCURRENCY=newCRYPTOCURRENCY;
+      status=newstatus;
+     }
+     function getDetails()public view returns(string,uint,uint,string){
+         return(Name,RollNo,batch,status);
+     }
+     function reportcard()public view returns(string,uint,uint,uint,uint,uint,uint,string){
+         return(Name,RollNo,batch,AI,PYTHON,ML,CRYPTOCURRENCY,status);
+     }
+     }
